@@ -12,6 +12,10 @@ export default {
       },
       colors:{
         'translucent': "rgba(217, 217, 217, 0.12)",
+        'midnightBlue': '#3B4043',
+        'slateGray': '#475467',
+        'steelBlue': '#717579',
+        'ashGray': '#767676'
       },
       backdropBlur: {
         translucent : '25px',
@@ -20,4 +24,3 @@ export default {
   },
   plugins: [],
 }
-
