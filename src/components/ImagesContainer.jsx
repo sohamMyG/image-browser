@@ -1,6 +1,13 @@
 import React from 'react'
 
 function ImagesContainer({images,handleImageClick}) {
+    
+    if(images.length===0){
+      return <div className='flex justify-center font-semibold p-10'>
+        Loading Images...
+      </div>
+    }
+  
     return (
         <div className="container mx-auto">
 

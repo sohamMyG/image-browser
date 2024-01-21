@@ -59,8 +59,10 @@ function SearchResults() {
     }
 
     const handleSearchClick = () => {
+        setSearch([])
         navigate(`/searchResults/${searchBar}`);
     }
+
 
     return (
         <>
